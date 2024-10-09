@@ -18,6 +18,9 @@ background-repeat: no-repeat;
 background-position:center;
 background-size: cover;
 margin-bottom: 71px;
+margin-top: 70px;
+border-top: 2px dashed rgba(13, 19, 33, 0.443);
+border-bottom: 2px dashed rgba(13, 19, 33, 0.443);
 
 }
 
@@ -240,4 +243,73 @@ height:100%;
 
 .js{
     background: rgba(0, 76, 232, 0.05);
+}
+
+/* <!-- I need support section --> */
+.support-section-container{
+    max-width: 946px;
+    min-height:313px;;
+    margin:0px auto;
+    
+    background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    border-radius: 16px;
+    color:white;
+    padding: 40px;
+
+}
+
+.support-section-text-con h2{
+ 
+max-width: 292px;
+height: 36px;
+display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+margin: 16px auto;
+}
+.support-section-text-con p{
+ 
+    color: rgb(255, 255, 255);
+    max-width: 650px;
+    margin: 20px auto;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.input-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap:20px
+}
+
+ .input-feedback{
+    width: 548px;
+height: 57px;
+    padding: 5px  120px 5px 15px ;
+    border-radius: 6px;
+    border:none
+}
+
+.submit{
+    width: 120px;
+height: 57px;
+border-radius: 6px;
+border:none;
+cursor: pointer;
+transition: all .4s;
+}
+
+.submit:hover{
+    background-color: rgb(25, 86, 104);
+    color:white
 }
