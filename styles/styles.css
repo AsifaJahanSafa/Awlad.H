@@ -51,3 +51,101 @@ header .btn{
     padding:20px ;
     color:white
 }
+
+/*  <!-- why i choose web development --> */
+.Web-development-container{
+    border-radius: 16px;
+
+    background: rgba(13, 19, 33, 0.02);
+max-width: 946px;
+height: 1233px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
+align-items: center;
+gap: 48;
+padding: 0px;
+text-align: center;
+
+
+margin: 0px auto;
+}
+
+.Web-development-text h2{
+   
+    font-weight: 800;
+    font-size: 32px;
+    margin-bottom: 20px;
+   
+   
+}
+.Web-development-text p{
+   
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+   
+   
+}
+
+/*  */
+/* Web-development-card-container */
+.Web-development-card-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:71px ;
+}
+.card{
+    max-width: 850px;
+height: 240px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    padding:48px;
+    background-color: white;
+    margin-top: 45px;
+}
+
+.card-des{
+    text-align: start;
+}
+
+.card-des h4{
+ 
+font-weight:700;
+font-size:16px ; 
+
+
+
+}
+.card-des p{
+    color: rgb(13, 19, 33);
+    width: 300px;
+    font-size: 14px;
+    font-weight: 400;
+    margin-top:16px;
+    margin-bottom: 20px;
+  
+}
+
+.card-btn{
+    color: rgb(13, 19, 33);
+
+font-size: 14px;
+font-weight: 600;
+background-color: white;
+padding:10px 20px;
+text-align: center;
+}
+
+.row-reverse{
+    flex-direction: row-reverse;
+}
