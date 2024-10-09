@@ -172,3 +172,72 @@ text-align: center;
    
     border-radius: 16px;
 }
+
+/* <!-- My Current Target section --> */
+
+.my-current-target-container{
+    max-width: 946px;
+    margin:0 auto 71px;
+    display:flex ;
+    flex-direction: column;
+    text-align: center;
+}
+
+.my-current-target-tech{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap:20px
+}
+.tech-card{
+    padding:20px;
+    border-radius: 16px;
+    text-align: left;
+background: rgba(255, 76, 30, 0.05);
+}
+.tech-card .img{
+  
+    width: 42.45px;
+  
+
+}
+.tech-card img{
+  
+width:100%;
+height:100%;
+
+}
+.tech-card h4{
+    color: rgb(13, 19, 33);
+   
+    font-size: 14px;
+    font-weight: 800;
+    line-height: 36px;
+   
+
+}
+.tech-card p{
+    color: rgb(13, 19, 33);
+    
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 26px;
+    margin:3px auto;
+   
+}
+.tech-card a{
+    color: rgb(13, 19, 33);
+    
+    font-size: 12px;
+    font-weight: 700;
+    
+   
+}
+
+.css{
+    background: rgba(0, 76, 232, 0.05);
+}
+
+.js{
+    background: rgba(0, 76, 232, 0.05);
+}
