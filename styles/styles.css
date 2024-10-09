@@ -321,14 +321,14 @@ footer{
 }
 
 .footer-container{
-    max-width: 946px;
-    height: 100px;
-    margin:0px auto;
+    max-width:946px;
+    height:100px;
+    margin:8px auto;
     display: flex;
     flex-direction: row;
     justify-content:space-between ;
     align-items: center;
-    gap:20px
+   
 }
 
 .icon-container{
