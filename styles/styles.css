@@ -313,3 +313,55 @@ transition: all .4s;
     background-color: rgb(25, 86, 104);
     color:white
 }
+
+/* footer section */
+footer{
+    background: rgba(13, 19, 33, 0.03);
+    margin-top: 30px;
+}
+
+.footer-container{
+    max-width: 946px;
+    height: 100px;
+    margin:0px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+    gap:20px
+}
+
+.icon-container{
+    max-width: 200px;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    align-items: center;
+    gap:20px
+}
+.icon{
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+   
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+.icon i{
+    color:white
+}
+
+.facebook-div{
+    background-color:#1877F2 ;
+}
+
+.github-div{
+    background-color:black;
+}
+.lindin-div{
+    background-color:#0077B5 ;
+}
