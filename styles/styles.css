@@ -11,7 +11,7 @@
 .nav-container{
     max-width: 998px;
     max-height:30px;
-    margin:14px auto;
+    margin:20px auto;
     display: flex;
     flex-direction: row;
     justify-content:space-between ;
@@ -82,14 +82,24 @@ text-align: center;
     font-size: 16px;
 
 }
-
+.submit:hover{
+    background-color: rgb(25, 86, 104);
+    color:white
+}
 header .btn{
     border-radius: 8px;
     background: rgb(13, 19, 33);
     padding:20px ;
-    color:white
+    color:white;
+    cursor: pointer;
+    transition: all .4s;
 }
 
+
+.btn:hover{
+    background-color:white;
+    color:rgb(13, 19, 33)
+}
 /*  <!-- why i choose web development --> */
 .Web-development-container{
     border-radius: 16px;
@@ -358,12 +368,13 @@ transition: all .4s;
 
 .footer-container{
     width:946px;
-    height:100px;
+    height:50px;
     margin:8px auto;
     display: flex;
     flex-direction: row;
     justify-content:space-between ;
     align-items: center;
+    padding:5px auto ;
    
 }
 
