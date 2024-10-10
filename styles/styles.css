@@ -7,6 +7,41 @@
     padding:0px;
     font-family: "Azeret Mono", monospace;
 }
+
+.nav-container{
+    max-width: 998px;
+    max-height:30px;
+    margin:14px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+
+.nav-button{
+    color: rgb(13, 19, 33);
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+   padding:10px 20px;
+   border-radius: 6px;
+    text-align: center;
+    border:1px solid rgb(13, 19, 33);
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.nav-button:hover{
+    background-color: rgb(13, 19, 33);
+    color:white
+}
+.card-btn:hover{
+    background-color: rgb(13, 19, 33);
+    color:white
+}
+
 /* <!-- header section start --> */
 
 header{
@@ -180,10 +215,11 @@ text-align: center;
 
 .my-current-target-container{
     max-width: 946px;
-    margin:0 auto 71px;
+    margin:0 auto ;
     display:flex ;
     flex-direction: column;
     text-align: center;
+   
 }
 
 .my-current-target-tech{
@@ -228,7 +264,7 @@ height:100%;
     margin:3px auto;
    
 }
-.tech-card a{
+.tech-card a,.next-target-text-con a{
     color: rgb(13, 19, 33);
     
     font-size: 12px;
@@ -250,7 +286,7 @@ height:100%;
     max-width: 946px;
     min-height:313px;;
     margin:0px auto;
-    
+   
     background-image:linear-gradient(rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2)), url(../assets/handshake.jpg);
     background-repeat: no-repeat;
     background-size:cover;
@@ -366,36 +402,66 @@ transition: all .4s;
     background-color:#0077B5 ;
 }
 
-.nav{
+
+
+/* my-next-target-sec */
+.my-next-target-sec{
     max-width: 998px;
-    max-height:50px;
-    margin:14px auto;
+height: 581px;
+
+display: flex;
+flex-direction: column;
+justify-content:center;
+align-items: center;
+gap: 32;
+padding: 0px;
+margin: 0px auto;
+margin-bottom: 71px;
+text-align:center;
+}
+
+.current{
+    margin-bottom: 171px;
+}
+.next-target-card{
     display: flex;
     flex-direction: row;
-    justify-content:space-between ;
-    align-items: center;
-}
-
-
-.nav-button{
-    color: rgb(13, 19, 33);
+    justify-content: space-between;
+    margin-top: 30px;
+    gap:20px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    border-radius: 16px;
     
-    font-size: 20px;
-    font-weight: 600;
-    line-height: 23px;
-   padding:10px 20px;
-   border-radius: 6px;
-    text-align: center;
-    border:1px solid rgb(13, 19, 33);
-    cursor: pointer;
-    transition: all .4s;
+    background: rgb(255, 255, 255);
+    padding: 20px;
+    margin-bottom: 20px;
 }
 
-.nav-button:hover{
-    background-color: rgb(13, 19, 33);
-    color:white
+.next-target-img{
+ 
+width:100px;
+
+
 }
-.card-btn:hover{
-    background-color: rgb(13, 19, 33);
-    color:white
+.next-target-img img{
+ 
+width:100%;
+
+
+}
+
+.next-target-text-con{
+   
+    max-width:800px;
+    text-align: left;
+}
+.next-target-text-con p{
+    margin:10px auto;
+    color: rgb(13, 19, 33);
+
+font-size: 12px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: left;
 }
