@@ -18,7 +18,7 @@ background-repeat: no-repeat;
 background-position:center;
 background-size: cover;
 margin-bottom: 71px;
-margin-top: 70px;
+
 border-top: 2px dashed rgba(13, 19, 33, 0.443);
 border-bottom: 2px dashed rgba(13, 19, 33, 0.443);
 
@@ -315,13 +315,13 @@ transition: all .4s;
 }
 
 /* footer section */
-footer{
+.footer{
     background: rgba(13, 19, 33, 0.03);
     margin-top: 30px;
 }
 
 .footer-container{
-    max-width:946px;
+    width:946px;
     height:100px;
     margin:8px auto;
     display: flex;
@@ -364,4 +364,38 @@ footer{
 }
 .lindin-div{
     background-color:#0077B5 ;
+}
+
+.nav{
+    width:946px;
+    height:50px;
+    margin:14px auto;
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between ;
+    align-items: center;
+}
+
+
+.nav-button{
+    color: rgb(13, 19, 33);
+    
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 23px;
+   padding:10px 20px;
+   border-radius: 6px;
+    text-align: center;
+    border:1px solid rgb(13, 19, 33);
+    cursor: pointer;
+    transition: all .4s;
+}
+
+.nav-button:hover{
+    background-color: rgb(13, 19, 33);
+    color:white
+}
+.card-btn:hover{
+    background-color: rgb(13, 19, 33);
+    color:white
 }
